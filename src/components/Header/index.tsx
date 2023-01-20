@@ -1,12 +1,14 @@
-import logo from '../../assets/logo.svg'
+import logoImg from '../../assets/logo.svg'
+import coverImg from '../../assets/cover.png';
 
 import { HeaderContainer } from './styles'
 
-export function Header(){
+export function Header() {
     return (
         <HeaderContainer>
-            {/* <img src={backgroundImg} alt="Background" /> */}
-            <img src={logo} alt="" />
+            <img src={coverImg} alt="" className="cover"/>
+
+            <img src={logoImg} alt="" className="logo" />
         </HeaderContainer>
     )
 }

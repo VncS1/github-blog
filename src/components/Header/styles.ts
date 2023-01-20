@@ -1,18 +1,20 @@
 import styled from "styled-components";
-import backgroundImg from '../../assets/cover.png'
 
+export const HeaderContainer = styled.header`
+    position: relative;
+  
+    z-index: -1;
 
-export const HeaderContainer = styled.header `
-    background: url(${backgroundImg}) no-repeat center;
-    background-size: cover;
-    height: 18.5rem;
-    min-height: 18.5rem;
-
-    display: flex;
-    justify-content: center;
-
-    img {
-        width: 9rem;
-        margin-top: -5rem;
+    > img {
+        width: 100%;
+        height: 296px;
+    }
+    
+    img.logo {
+        position: absolute;
+        left: 50%;
+        top: -25px;
+        transform: translateX(-50%);
+        width: 148px;
     }
 `
