@@ -1,7 +1,7 @@
 import { BannerContainer, Icon, IconsContainer, InfosContainer, NameContainer } from "./styles";
 import { GithubLogo, Buildings, Users, Link } from 'phosphor-react'
 
-import avatarImg from '../../assets/avatar.png'
+import avatarImg from '../../../../assets/avatar.png'
 
 export function Banner() {
     return (

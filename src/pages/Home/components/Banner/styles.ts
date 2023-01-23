@@ -10,7 +10,9 @@ export const BannerContainer = styled.section`
     display: flex;
     gap: 2rem;
 
-    margin-top: -7rem;
+    margin-top: -9.5rem;
+
+    border-radius: 8px;
 
     img {
         max-width: 148px;
