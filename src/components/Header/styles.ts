@@ -13,7 +13,7 @@ export const HeaderContainer = styled.header`
     img.logo {
         position: absolute;
         left: 50%;
-        top: -25px;
+        top: -40px;
         transform: translateX(-50%);
         width: 148px;
     }
