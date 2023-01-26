@@ -1,6 +1,6 @@
 import { Banner } from "./components/Banner";
-import { SearchForm } from "./components/SearchForm";
 import { HomeContainer } from "./styles";
+import { SearchForm } from "./components/SearchForm";
 
 export function Home(){
     return (
